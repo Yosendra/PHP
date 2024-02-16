@@ -1,0 +1,3 @@
+- Install XAMPP
+- Untuk OS Windows, masukan direktori berikut "C:\xampp\php" ke Environment Variable "PATH"
+- Masukan command "php --version" pada CMD untuk memastikan php.exe dikenal pada system
