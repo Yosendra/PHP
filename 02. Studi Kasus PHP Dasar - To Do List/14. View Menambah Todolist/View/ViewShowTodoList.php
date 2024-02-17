@@ -16,7 +16,7 @@ function viewShowTodoList()
         echo "2. Hapus Todo" . PHP_EOL;
         echo "x. Keluar" . PHP_EOL;
 
-        $pilihan = input("Pilih");      // trim() wajib, fgets mengambil input keyboard termasuk input ENTER
+        $pilihan = trim(input("Pilih"));
         if ($pilihan == "1") {
             viewAddTodoList();
         } elseif ($pilihan == "2") {
