@@ -14,7 +14,7 @@ Look at:
 
 require_once __DIR__ . "/Data/Location.php";
 
-#$location = new Location();     # error, cannot instantiate abstract class
+//$location = new Location();    # error, cannot instantiate abstract class
 $city = new City();              # child class dari kelas Location yang bisa diinstansiasi
 $city = new Province();
 $city = new Country();

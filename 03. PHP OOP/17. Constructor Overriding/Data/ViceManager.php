@@ -5,7 +5,7 @@ require_once __DIR__ . "/Manager.php";
 class ViceManager extends Manager
 {
 
-    public function __construct(string $name = "")       // override parent constructor
+    public function __construct(string $name = "")       # override parent constructor
     {
         # tidak wajib tapi direkomendasikan
         parent::__construct($name, "VP");

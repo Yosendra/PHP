@@ -9,12 +9,10 @@ sama seperti mengakses property.
 
 Look at:
 • Person.php
-• Program.php
 
 */
 
 require_once __DIR__ . "/Data/Person.php";
 
-
 $person = new Person();
-$person->sayHello("Alex");      // mengakses method dari object
+$person->sayHello("Alex");      # mengakses method dari object

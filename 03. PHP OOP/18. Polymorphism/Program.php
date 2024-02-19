@@ -18,7 +18,7 @@ $company2 = new Company();
 $company3 = new Company();
 
 # property programmer dari company bertipe "Programmer"
-# namun kita bisa mengisinya dengan object dari child kelas milik Programmer
+# namun kita bisa mengisinya dengan object dari child class milik Programmer
 # yaitu 'BackendProgrammer' atau 'FrontendProgrammer'
 $company1->programmer = new Programmer("John");
 $company2->programmer = new BackendProgrammer("Alex");

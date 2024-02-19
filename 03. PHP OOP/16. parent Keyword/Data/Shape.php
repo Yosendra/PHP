@@ -10,13 +10,13 @@ class Shape
 
 class Rectangle extends Shape
 {
-    function getCorner(): int           // override method parent
+    function getCorner(): int           # override method parent
     {
         return 4;
     }
 
     function getParentCorner(): int
     {
-        return parent::getCorner();     // mengakses getCorner() milik parent
+        return parent::getCorner();     # mengakses getCorner() milik parent dengan keyword 'parent'
     }
 }

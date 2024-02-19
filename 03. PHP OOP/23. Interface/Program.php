@@ -16,5 +16,6 @@ Look at:
 */
 
 require_once __DIR__ . "/Data/Avanza.php";
+
 $car = new Avanza();
 $car->drive();

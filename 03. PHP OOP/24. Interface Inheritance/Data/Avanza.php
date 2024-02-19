@@ -14,12 +14,12 @@ class Avanza implements ICar, IIsMaintenance        # class mengimplement lebih 
         return 4;
     }
 
-    function getBrand(): string         # method dari IHasBrand yang diwarisi oleh ICar
-    {                                   # wajib dioverride di class ini
+    function getBrand(): string                     # method dari IHasBrand yang diwarisi oleh ICar
+    {                                               # wajib dioverride di class ini
         return "Toyota";
     }
 
-    function isMaintenance(): bool      # override IIsMaintenance contract
+    function isMaintenance(): bool                  # override IIsMaintenance contract
     {
         return false;
     }

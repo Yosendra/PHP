@@ -8,7 +8,7 @@ class Person
     var string $address;
     var string $country;
 
-    public function __construct(string $name, ?string $address)        // constructor
+    public function __construct(string $name, ?string $address)        # constructor
     {
         $this->name = $name;
         $this->address = $address;

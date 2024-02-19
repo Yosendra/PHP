@@ -6,10 +6,10 @@ class Person
     var string $address;
     var string $country;
 
-    function sayHello(?string $name)        // nullable parameter type
+    function sayHello(?string $name)
     {
         if (is_null($name))
-            echo "Hi, my name is {$this->name}" . PHP_EOL;              // this mengarah ke objek saat ini
+            echo "Hi, my name is {$this->name}" . PHP_EOL;              # 'this' mengarah ke objek saat ini
         else
             echo "Hello $name, my name is {$this->name}" . PHP_EOL;
     }

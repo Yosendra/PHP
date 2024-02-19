@@ -18,6 +18,6 @@ class Person
 
     function info()
     {
-        echo "Author: " . self::AUTHOR .PHP_EOL;        // keyword 'self' mereference kepada kelas Person itu sendiri
+        echo "Author: " . self::AUTHOR .PHP_EOL;        # keyword 'self' mereference kepada kelas Person itu sendiri
     }
 }

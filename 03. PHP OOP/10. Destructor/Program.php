@@ -16,5 +16,4 @@ Look at:
 
 require_once __DIR__ . "/Data/Person.php";
 
-
 $person = new Person("John", "America");

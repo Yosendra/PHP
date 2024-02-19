@@ -2,12 +2,12 @@
 
 class Product
 {
-    private string $name;           // private modifier
+    private string $name;           # private modifier
     private int $price;
 
     public function __construct(string $name, int $price) 
     {
-        $this->name = $name;        // name dan price masih dapat diakses di dalam kelas
+        $this->name = $name;        # name dan price masih dapat diakses di dalam kelas
         $this->price = $price;
     }
 

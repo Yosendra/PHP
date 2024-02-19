@@ -23,5 +23,5 @@ $manager->name = "Manager";
 $manager->sayHello("ViceManager");
 
 $manager = new ViceManager();
-$manager->name = "ViceManager";     // property dari kelas Manager
-$manager->sayHello("Manager");      // method dari kelas Manager
+$manager->name = "ViceManager";     # property dari kelas Manager
+$manager->sayHello("Manager");      # method dari kelas Manager

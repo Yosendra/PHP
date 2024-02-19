@@ -25,23 +25,23 @@ Look at:
 require_once __DIR__ . "/Conflict.php";
 require_once __DIR__ . "/Helper.php";
 
-use const Helper\APPLICATION;                   // import constant
-use function Helper\helpMe;                     // import function
-use One\Conflict;                               // import class
+use const Helper\APPLICATION;                   # import constant
+use function Helper\helpMe;                     # import function
+use One\Conflict;                               # import class
 use Two\Conflict as Conflict2;
-use function Three\{func_A, func_B, func_C};    // Group use untuk function
-use const Three\{CONST_A, CONST_B, CONST_C};    // Group use untuk constant
-use Three\{ClassA, ClassB, ClassC};             // Group use untuk class
+use function Three\{func_A, func_B, func_C};    # Group use untuk function
+use const Three\{CONST_A, CONST_B, CONST_C};    # Group use untuk constant
+use Three\{ClassA, ClassB, ClassC};             # Group use untuk class
 
-// $conflict1 = new One\Conflict();         // Sebelum menggunakan 'use'
+// $conflict1 = new One\Conflict();             # Sebelum menggunakan 'use'
 // $conflict2 = new Two\Conflict();
 $conflict1 = new Conflict();
-$conflict2 = new Conflict2();               // menggunakan nama alias
+$conflict2 = new Conflict2();                   # menggunakan nama alias
 
-// Helper\helpMe();                         // Sebelum menggunakan 'use'
+// Helper\helpMe();                             # Sebelum menggunakan 'use'
 // echo Helper\APPLICATION;
 helpMe();
-echo APPLICATION;
+echo APPLICATION . PHP_EOL;
 
 func_A();
 echo CONST_A . PHP_EOL;

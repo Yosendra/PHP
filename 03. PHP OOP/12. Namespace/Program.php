@@ -31,10 +31,9 @@ Look at:
 require_once __DIR__ . "/Conflict.php";
 require_once __DIR__ . "/Helper.php";
 
-
-// mengakses dua kelas yang punya nama sama pada namespace yang berbeda
-$conflict1 = new One\Conflict();    // [nama_namespace]\[nama_kelas]
+# mengakses dua kelas yang punya nama sama pada namespace yang berbeda
+$conflict1 = new One\Conflict();    # [nama_namespace]\[nama_kelas]
 $conflict2 = new Two\Conflict();
 
-Helper\helpMe();            // mengakses function dalam namespace Helper
-echo Helper\APPLICATION;    // mengakses constant dalam namespace Helper
+Helper\helpMe();            # mengakses function dalam namespace Helper
+echo Helper\APPLICATION;    # mengakses constant dalam namespace Helper

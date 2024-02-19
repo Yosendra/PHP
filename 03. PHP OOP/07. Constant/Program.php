@@ -20,5 +20,4 @@ Look at:
 
 require_once __DIR__ . "/Data/Person.php";
 
-
-echo Person::AUTHOR . PHP_EOL;          // mengakses constant di dalam class
+echo Person::AUTHOR . PHP_EOL;          # mengakses constant di dalam class

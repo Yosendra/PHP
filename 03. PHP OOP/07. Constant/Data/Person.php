@@ -2,7 +2,7 @@
 
 class Person
 {
-    const AUTHOR = "John Doe";          // const di dalam class
+    const AUTHOR = "John Doe";          # const di dalam class
 
     var string $name;
     var string $address;

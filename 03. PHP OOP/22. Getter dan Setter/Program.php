@@ -26,9 +26,9 @@ Look at:
 require_once __DIR__ . "/Data/Category.php";
 
 $category = new Category();
-$category->setName("Handphone");        # menggunakan method setter
+$category->setName("Handphone");                            # menggunakan method setter
 $category->setExpensive(true);
-$category->setName("         ");        # isi dengan nilai yang tidak valid
+$category->setName("         ");                            # isi dengan nilai yang tidak valid
 
 echo "Name : {$category->getName()}" . PHP_EOL;             # menggunakan method getter, nilai name tetap Handphone
 echo "Expensive : {$category->isExpensive()}" . PHP_EOL;    # karena validasi

@@ -28,25 +28,23 @@ Gunakan tanda tanya (?) sebelum type declaration untuk menggunakan nullable type
 
 Look at:
 • Person.php
-• Program.php
 
 */
 
 require_once __DIR__ . "/Data/Person.php";
 
-
 $person = new Person();
 
-// manipulasi properties
+# manipulasi properties
 $person->name = "John";             
 $person->address = "New York";
-//$person->country = "America";     // komen statement ini untuk gunakan property default value
+//$person->country = "America";     # komen statement ini untuk gunakan property default value
 
-// cetak nilai dari hasil manipulasi properties
+# cetak nilai dari hasil manipulasi properties
 echo "Name : {$person->name}" . PHP_EOL;
 echo "Address : {$person->address}" . PHP_EOL;
-echo "Country : {$person->country}" . PHP_EOL;          // cetak "Indoenesia" dari property default value
+echo "Country : {$person->country}" . PHP_EOL;          # cetak "Indoenesia" dari property default value
 
-//$person->name = [];     // Ini akan error. Tipe data dari property yang diisi meminta "string", bukan "array"
+//$person->name = [];     # Ini akan error. Tipe data dari property yang diisi meminta "string", bukan "array"
 
 var_dump($person);

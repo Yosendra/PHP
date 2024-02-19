@@ -14,7 +14,7 @@ class Person
         $this->address = $address;
     }
 
-    public function __destruct()        // destructor
+    public function __destruct()        # destructor
     {
         echo "Object person {$this->name} is destroyed" . PHP_EOL;
     }

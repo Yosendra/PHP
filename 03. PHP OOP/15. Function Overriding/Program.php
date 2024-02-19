@@ -18,8 +18,8 @@ require_once __DIR__ . "/Data/ViceManager.php";
 
 $manager = new Manager();
 $manager->name = "John";
-$manager->sayHello("Doe");          // sayHello dari dirinya sendiri
+$manager->sayHello("Doe");          # sayHello dari dirinya sendiri
 
 $viceManager = new ViceManager();
 $viceManager->name = "Doe";
-$viceManager->sayHello("John");     // sayHello hasil override sayHello parent
+$viceManager->sayHello("John");     # sayHello hasil override sayHello parent

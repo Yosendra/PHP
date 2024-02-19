@@ -17,12 +17,10 @@ operator ::
 
 Look at:
 • Person.php
-• Program.php
 
 */
 
 require_once __DIR__ . "/Data/Person.php";
-
 
 $person = new Person();
 $person->info();

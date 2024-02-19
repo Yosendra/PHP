@@ -22,7 +22,7 @@ require_once __DIR__ . "/Data/Product.php";
 
 $product = new Product("HP", 1_000_000);
 
-// error, name dan price bersifat private
+# error, name dan price bersifat private
 // $product->name;
 // $product->price;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace One               // kelas Conflict di dalam namespace One
+namespace One               # kelas Conflict di dalam namespace One
 {
     class Conflict
     {
@@ -8,7 +8,7 @@ namespace One               // kelas Conflict di dalam namespace One
     }
 }
 
-namespace Two               // kelas Conflict di dalam namespace Two
+namespace Two               # kelas Conflict di dalam namespace Two
 {
     class Conflict
     {
