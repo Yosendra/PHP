@@ -11,7 +11,7 @@ Pada class, diperbolehkan meng-implements lebih dari satu interface.
 
 Look at:
 • ICar.php
-• Car.php
+• Avanza.php
 
 */
 
