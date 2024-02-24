@@ -1,6 +1,6 @@
 <?php
 
-namespace Repository\Contract;
+namespace Repository;
 
 use Entity\Todolist;
 

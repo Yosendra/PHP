@@ -1,6 +1,6 @@
 <?php
 
-namespace Service\Contract;
+namespace Service;
 
 interface ITodolistService
 {
