@@ -15,7 +15,8 @@ CREATE TABLE customers
     name    VARCHAR(100)    NOT NULL,
     email   VARCHAR(100)    NOT NULL,
     PRIMARY KEY(id)
-) ENGINE = InnoDB;
+)
+ENGINE = InnoDB;
 
 Look at:
 • GetConnection.php
