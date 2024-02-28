@@ -1,0 +1,15 @@
+{
+    "name": "yosendra/belajar-fitur-composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Yosendra",
+            "email": "yosendra.evri@gmail.com"
+        }
+    ],
+    "scripts": {
+        "jalankan-server": "php -S localhost:8080",
+        "hello": "echo 'Hello World'"
+    },
+    "require": {}
+}
