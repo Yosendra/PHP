@@ -1,0 +1,19 @@
+{
+    "name": "yosendra/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Yosendra",
+            "email": "yosendra.evri@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BelajarComposer\\Library\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
