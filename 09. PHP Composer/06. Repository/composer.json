@@ -1,0 +1,17 @@
+{
+    "name": "yosendra/belajar-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Yosendra",
+            "email": "yosendra.evri@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BelajarComposer\\": "src/"
+        }
+    },
+    "require": {}
+}
