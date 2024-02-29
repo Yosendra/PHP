@@ -13,8 +13,6 @@ Saat menggunakan @dataProvider kita harus membuat function yang mengembalikan da
 Ada cara lebih mudah tanpa harus membuat function terlebih dahulu, yaitu menggunakan annotation @testWith
 Dengan menggunakan @testWith kita bisa mengirim data ke unit test tanpa harus membuat function, kita cukup masukan dalam doc saja
 
-
-
 Look at:
 • Math.php
 • MathTest.php
