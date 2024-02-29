@@ -17,6 +17,9 @@
             "BelajarPHPUnit\\": "test"
         }
     },
+    "scripts": {
+        "test": "vendor/bin/phpunit test/"
+    },
     "require": {
         "php": ">=8.0"
     },
