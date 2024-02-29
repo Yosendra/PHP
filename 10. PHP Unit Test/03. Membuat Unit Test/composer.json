@@ -1,0 +1,26 @@
+{
+    "name": "yosendra/belajar-php-unit-test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Yosendra",
+            "email": "yosendra.evri@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BelajarPHPUnit\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BelajarPHPUnit\\": "test"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.5"
+    }
+}
